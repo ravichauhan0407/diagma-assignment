@@ -43,7 +43,6 @@ const Neurology = () => {
 		{
 			id: 'value',
 			label: 'Value',
-			format: (row) => `${row.value} / ${row.valueuom}`,
 		},
 		{
 			id: 'valueuom',
